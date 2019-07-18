@@ -5,6 +5,7 @@ import (
 
 	c "github.com/solairerove/go-channels-playground/channel-block"
 	d "github.com/solairerove/go-channels-playground/direct"
+	in "github.com/solairerove/go-channels-playground/fanin"
 	f "github.com/solairerove/go-channels-playground/funcs"
 	r "github.com/solairerove/go-channels-playground/ranges"
 	s "github.com/solairerove/go-channels-playground/selects"
@@ -18,4 +19,5 @@ func main() {
 	f.ChannelWithFuncs()
 	r.ChannelRange()
 	s.ChannelSelect()
+	in.ChannnelFanIn()
 }
