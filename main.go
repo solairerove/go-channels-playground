@@ -6,6 +6,7 @@ import (
 	s "github.com/solairerove/go-channels-playground/channel-block"
 	d "github.com/solairerove/go-channels-playground/direct"
 	f "github.com/solairerove/go-channels-playground/funcs"
+	r "github.com/solairerove/go-channels-playground/ranges"
 )
 
 func main() {
@@ -14,4 +15,5 @@ func main() {
 	s.SimpleChannelBlock()
 	d.ChannelDicect()
 	f.ChannelWithFuncs()
+	r.ChannelRange()
 }
